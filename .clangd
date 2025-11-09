@@ -1,3 +1,4 @@
 CompileFlags:
   Add:
-    - "-L./src/external/raylib/src/"
+    - "--include-directory=external/raylib/src"
+    - "--include-directory=external/raygui"

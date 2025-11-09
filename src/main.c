@@ -109,7 +109,8 @@ bool check_for_update(Grid *grid);
 void *draw_grid_slice(void *d);
 
 i32 main(void) {
-    SetConfigFlags(FLAG_WINDOW_RESIZABLE); // TODO: support resizing
+    // SetConfigFlags(FLAG_WINDOW_RESIZABLE); // TODO: support resizing
+    SetConfigFlags(FLAG_WINDOW_HIGHDPI);
     InitWindow(GRID_WIDTH + 364, GRID_HEIGHT + 16, "cand");
     // SetTargetFPS(60);
     GuiSetStyle(DEFAULT, TEXT_SIZE, 20);
