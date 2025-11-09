@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jamesmiller/dev/cand/build/cmake_install.cmake",
+		"/Users/jamesmiller/dev/cand/build/src/external/raylib/cmake_install.cmake",
+		"/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

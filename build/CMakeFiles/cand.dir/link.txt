@@ -1,0 +1,1 @@
+/usr/bin/cc  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cand.dir/src/main.c.o -o cand  -Wl,-rpath,/opt/homebrew/lib src/external/raylib/raylib/libraylib.a /opt/homebrew/lib/libSDL3.0.dylib

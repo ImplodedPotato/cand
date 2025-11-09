@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/Users/jamesmiller/dev/cand/build",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -I/Users/jamesmiller/dev/cand/src/external/raygui -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -std=gnu99 -arch arm64 -o CMakeFiles/cand.dir/src/main.c.o -c /Users/jamesmiller/dev/cand/src/main.c",
+  "file": "/Users/jamesmiller/dev/cand/src/main.c",
+  "output": "CMakeFiles/cand.dir/src/main.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/raudio.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/raudio.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/raudio.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/raudio.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rcore.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/rcore.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/rcore.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/rcore.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rmodels.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/rmodels.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/rmodels.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/rmodels.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rshapes.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/rshapes.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/rshapes.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/rshapes.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rtext.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/rtext.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/rtext.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/rtext.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/rtextures.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/rtextures.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/rtextures.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/rtextures.c.o"
+},
+{
+  "directory": "/Users/jamesmiller/dev/cand/build/src/external/raylib/raylib",
+  "command": "/usr/bin/cc -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP_SDL -DUSING_SDL3_PACKAGE -I/Users/jamesmiller/dev/cand/src/external/raylib/src -I/opt/homebrew/include -fno-strict-aliasing -Werror=implicit-function-declaration -Werror=pointer-arith  -std=gnu99 -arch arm64 -o CMakeFiles/raylib.dir/utils.c.o -c /Users/jamesmiller/dev/cand/src/external/raylib/src/utils.c",
+  "file": "/Users/jamesmiller/dev/cand/src/external/raylib/src/utils.c",
+  "output": "src/external/raylib/raylib/CMakeFiles/raylib.dir/utils.c.o"
+}
+]
