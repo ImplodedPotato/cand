@@ -39,7 +39,8 @@ ifeq ($(PLATFORM),PLATFORM_WEB)
 	BUILD_PATH = $(RAW_BUILD_PATH)Wasm/
 	RAYLIB_LIB = /libraylib.web.a
 	OUTPUT_FILE = cand.html
-	ADDITIONAL_FLAGS += -Os -s USE_GLFW=3 --shell-file $(SHELL_PATH) --preload-file $(ASSETS_PATH)
+	ADDITIONAL_FLAGS += -Os -s USE_GLFW=3 -s ASYNCIFY --shell-file $(SHELL_PATH) --preload-file $(ASSETS_PATH)
+	# using ASYNCIFY to not deal the Emscripen no while() loop bureaucratics
 	CC = emcc
 endif
 
